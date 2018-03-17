@@ -150,9 +150,8 @@ div.sectionA img {
   opacity: 0.5;
 }
 div.sectionA img:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(-10deg);
   opacity: 1;
-  transform: rotate(-10deg);
 }
 div
 
@@ -175,9 +174,9 @@ div.sectionB img {
   opacity: 0.5;
 }
 div.sectionB img:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(-10deg);
   opacity: 1;
-  transform: rotate(-10deg);
+
 }
 .clear {
   clear: both;
