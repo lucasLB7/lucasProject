@@ -1,75 +1,137 @@
-/*@media screenlarge and (min-width:320px)
-
-2 and (max-width:480px){ */
-
-/* DEFINE STRUCTURAL ELEMENTS OF WEBSITE ; DIV's*/
-
-div.BdropCont{
-  flex: 1;
-  margin: 0% 3% 3% 3%;
-  border white solid;
-  border-radius: 3% 3% 3% 3%;
-  display: flex;
+/* FONTS FOR WEBSITE */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Quicksand_Dash.otf);
+    font-weight: bold;
 }
 
-div.headerPage {
-  border: 3px white solid;
-  border-radius: 25% 25% 0% 0%;
-  flex-direction: row;
-  height: 500px;
-  width: 95%;
-  background-image: url(../images/BgHeader.jpg);
-  padding: 2%;
-  .flex-grow
-  flex-grow: 1;
+@font-face {
+    font-family: font_select;
+    src: url(../fonts/OstrichSans-Black.otf);
+    font-weight: bold;
 }
 
-div.headerPage h1 {
+/* DEFINING IMAGES AND PLACEMENT */
+div.header {
+  height: 400px;
   text-align: center;
-  font-family: monospace;
-  font-size: 60px;
-  color: white;
+  background-image: url(../images/sea.jpg);
+  background-size: contain;
 }
-
-.container{
-  position: relative;
-  text-align: center;
-}
-
-#myPics {
-	height: 84px;
-}
-
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-.table img {
-  border-radius: 50%;
-  border: 3px white solid;
-  width: 200px;
-  height: 200px;
-  transition: all .2s ease-in-out;
-}
-.table img:hover{
-  transform: scale(1.3);
-}
-.table img:hover::before{
+div.header h1 {
+  margin-left: 2%;
+  font-size: 100px;
   color: white;
   font-family: font_select;
-  font-size: 60px;
-  content: 'Stand up Shout out';
-  position: relative;
-  top: 0;
-  text-align: center;
-  display: inline-block;
+  text-align: left;
+  opacity: 1;
+}
+div.header p {
+  background-color: white;
+  margin-left: 0 auto;
+  font-size: 50px;
+  font-family: font_select;
+  color: black;
+  float: left;
+  text-align: left;
+}
+div.header img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: right;
+  margin-right: 15%;
+  height: 400px;
+  width: 400px;
+  transition: all .2s ease-in-out;
+}
+div.header img:hover{
+  transform: scale(1.1) rotate(-10deg);
 }
 
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
+
+
+
+
+
+
+
+
+div.sectionA {
+  padding: 4%;
+  border: 2px white solid;
+  background-color: #C0C0C0;
+  height: 800px;
+}
+div.sectionA img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: left;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionA img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transform: rotate(-10deg);
+}
+div
+
+
+
+/*sectionB is inverse of sectionA with image on the right*/
+div.sectionB {
+  padding: 4%;
+  border: 2px white solid;
+  background-color: #909090;
+  height: 800px;
+}
+div.sectionB img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: right;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionB img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transform: rotate(-10deg);
+}
+.clear {
+  clear: both;
+}
+
+
+
+div.textBoxRight {
+  width: 800px;
+  text-align: right;
+  float: right;
+}
+
+div.textBoxRight p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+
+}
+div.textBoxLeft {
+  width: 800px;
+  text-align: left;
+  float: left;
+}
+
+div.textBoxLeft p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+/* SET UP TEXT BOXES FOR ANIMAL DESCRIPTION */
