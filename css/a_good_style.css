@@ -13,7 +13,7 @@
 
 /* DEFINING IMAGES AND PLACEMENT */
 div.header {
-  height: 400px;
+  height: 600px;
   text-align: center;
   background-image: url(../images/sea.jpg);
   background-size: contain;
@@ -45,7 +45,85 @@ div.header img {
   transition: all .2s ease-in-out;
 }
 div.header img:hover{
-  transform: scale(1.1) rotate(-10deg);
+  transform: scale(1.6) rotate(-10deg);
+}
+
+
+
+.navbar {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    float: left;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 0 2% 0;
+}
+
+.navbar a {
+    border-radius: 0px, 0px, 45px, 0px;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* Control the color of hover for non drop down links */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
 
