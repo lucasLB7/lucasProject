@@ -83,7 +83,16 @@ I decided not to put the images in a div, instead float them. For this I used th
 ```
 <br><br>
 
-```
+The table below demonstrates how the website is formed:
+
+|              Header div                       |
+|:-------------:|:-----------------------------:|
+|   sectionA    |            SectionA           |
+|    image      |              text             |
+|:-----------------------------:|:-------------:|
+|   sectionB                    |    sectionB   |
+|    text                       |      image    |
+
 
 # CREDITS:
 
@@ -109,6 +118,3 @@ https://www.w3schools.com/cssref/pr_class_clear.asp
 
 I Paul-Lucas Benoit Lambert (id. ek304470) testify that this project was created, tested and published by me alone.
 Although there are elements which I based myself on that was not my work, I have studied the code and __modified__ and __replicated__ it for the purpose of this project.
-
-
-```
