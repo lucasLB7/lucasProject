@@ -14,13 +14,15 @@ To run this website simply pull contents of gh-pages or complexStyles.  Alternat
 
  Inside the document you should find:
 
-1. css
-2. images
-3. fonts
-4. README.ms
-5. README.ms (copy)
-6. abtme.html
-7. index.html
+|   file name    |   file type   | size  |
+| :------------- |:-------------:|:------|
+| css            | folder        | $1600 |
+| images         | folder        |   $12 |
+| fonts          | folder        |    $1 |
+| README.ms      | README file ms|    $1 |
+| README.ms(copy)| README file ms|    $1 |
+| abtme.html     | html page     |    $1 |
+| index.html     | html page (HP)|    $1 |
 
 ### Links to other projects available in the website:
 ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
@@ -100,25 +102,8 @@ The table below demonstrates how the website is formed:
 |    text                       |      image    |
 
 ```
-|              Header div                       |
-|:-------------:|:-----------------------------:|
-|   sectionA    |            SectionA           |
-|    image      |              text             |
-|:-----------------------------:|:-------------:|
-|   sectionB                    |    sectionB   |
-|    text                       |      image    |
-|:-------------:|:-----------------------------:|
-|   sectionA    |            SectionA           |
-|    image      |              text             |
-|:-----------------------------:|:-------------:|
-|   sectionB                    |    sectionB   |
-|    text                       |      image    |
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
 
 # CREDITS:
 
