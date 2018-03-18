@@ -64,3 +64,30 @@ div.sectionA img {
   transition: all .2s ease-in-out;
   opacity: 0.5;
 }
+<br><br>
+
+
+# CREDITS:
+
+The realization of this website was only made possible thanks to these supports:
+
+1. Moringa School (For support, and classes. Main support base)
+Moringa instructure: https://moringaschool.instructure.com
+2. GitHub (For remote version control and backup)
+Github: https://github.com/
+3. Stack overflow (General look up for most questions and issues I had)
+https://stackoverflow.com/questions/8608621/how-to-center-div-and-place-at-bottom-of-another-div?rq=1
+
+4. W3school (same as stackoverflow)
+https://www.w3schools.com/cssref/sel_hover.asp
+https://www.w3schools.com/howto/default.asp
+https://www.w3schools.com/cssref/pr_class_clear.asp
+
+5. Youtube
+
+
+
+#TESTAMENT
+
+I Paul-Lucas Benoit Lambert (id. ek304470) testify that this project was created, tested and published by me alone.
+Although there are elements which I based myself on that was not my work, I have studied the code and __modified__ and __replicated__ it for the purpose of this project.
