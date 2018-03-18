@@ -1,7 +1,6 @@
 
 
-Inline-style:
-![alt text]("https://github.com/lucasLB7/lucasProject/tree/gh-pages/images/me.jpg")
+![Lucas Project]("https://github.com/lucasLB7/lucasProject/tree/gh-pages/images/me.jpg")
 
 
 # MY WEEK 1 PROJECT
@@ -14,15 +13,15 @@ To run this website simply pull contents of gh-pages or complexStyles.  Alternat
  https://lucaslb7.github.io/lucasProject/
 
  Inside the document you should find:
-```
-css
-images
-fonts
-README.ms
-README.ms (copy)
-abtme.html
-index.html
-```
+
+1. css
+2. images
+3. fonts
+4. README.ms
+5. README.ms (copy)
+6. abtme.html
+7. index.html
+
 ### Links to other projects available in the website:
 ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
 <br>
@@ -40,7 +39,11 @@ The rest of the body is composed of two div classes, __elementA & elementB__. Mo
 
 ## The profile image:
 
-The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the **: : before {} function** did not work ..:/.
+The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the
+```
+: : before {} function** did not work ..:/.
+
+```
 
 <br><br>
 
@@ -67,7 +70,8 @@ I decided to section my main content in two DIV types and call them sectionA and
 
 I decided not to put the images in a div, instead float them. For this I used the command:
 
-**div.sectionA img {
+```
+  div.sectionA img {
   border-radius: 50%;
   border: 3px white solid;
   float: left;
@@ -75,7 +79,8 @@ I decided not to put the images in a div, instead float them. For this I used th
   width: 600px;
   transition: all .2s ease-in-out;
   opacity: 0.5;
-}**
+}
+```
 <br><br>
 
 ```
