@@ -161,7 +161,6 @@ div.sectionA img:hover{
 div
 
 
-
 /*sectionB is inverse of sectionA with image on the right*/
 div.sectionB {
   padding: 4%;
@@ -198,7 +197,7 @@ div.textBoxRight {
 div.textBoxRight p {
   font-family: myFirstFont;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: right;
 
 }
