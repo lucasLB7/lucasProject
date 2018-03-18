@@ -84,7 +84,7 @@ I decided not to put the images in a div, instead float them. For this I used th
 <br><br>
 
 The table below demonstrates how the website is formed:
-
+```
 |              Header div                       |
 |:-------------:|:-----------------------------:|
 |   sectionA    |            SectionA           |
@@ -92,7 +92,7 @@ The table below demonstrates how the website is formed:
 |:-----------------------------:|:-------------:|
 |   sectionB                    |    sectionB   |
 |    text                       |      image    |
-
+```
 
 # CREDITS:
 
