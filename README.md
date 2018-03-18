@@ -12,6 +12,7 @@ To run this website simply pull contents of gh-pages or complexStyles.  Alternat
 ```
 ### Links to other projects available in the website:
 ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
+<br>
 TRAVEL AGENCY: https://lucaslb7.github.io/Happy-Trails-Travel-Agency/
 other links coming soon....
 ```
@@ -25,4 +26,22 @@ First is a main class background div that contains the entire page. It serves as
 
 ## The profile image:
 
-The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the : : before {} function did not work ..:/
+The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the : : before {} function did not work ..:/.
+
+<br><br>
+
+## The navbar:
+
+This is an improved version of the navbar used in the TRAVEL AGENCY  project. It has 3 standard buttons & one drop down button with links to other pages (projects) made this week.
+
+All the links are live to other pages in the website. <br><br>
+
+
+1. Buttons link to local pages in repo
+2. Scroll down links to other live (global) github pages.
+
+
+
+
+
+1.
