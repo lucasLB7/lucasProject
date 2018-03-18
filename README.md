@@ -1,12 +1,8 @@
 
 
 Inline-style:
-![alt text](../images/BgHeader.jpg "Logo Title Text 1")
+![alt text]("https://github.com/lucasLB7/lucasProject/tree/gh-pages/images/me.jpg")
 
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 # MY WEEK 1 PROJECT
 
@@ -32,8 +28,7 @@ ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
 <br>
 TRAVEL AGENCY: https://lucaslb7.github.io/Happy-Trails-Travel-Agency/
 other links coming soon....
-```
-```
+
 # A BIT ABOUT THE WEBSITE:
 
 Html code is kept as __simple as possible__ on a css structure based on the ANIMAL SHELTER project.
@@ -83,6 +78,7 @@ I decided not to put the images in a div, instead float them. For this I used th
 }**
 <br><br>
 
+```
 
 # CREDITS:
 
@@ -108,3 +104,6 @@ https://www.w3schools.com/cssref/pr_class_clear.asp
 
 I Paul-Lucas Benoit Lambert (id. ek304470) testify that this project was created, tested and published by me alone.
 Although there are elements which I based myself on that was not my work, I have studied the code and __modified__ and __replicated__ it for the purpose of this project.
+
+
+```
