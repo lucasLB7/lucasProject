@@ -40,8 +40,27 @@ All the links are live to other pages in the website. <br><br>
 1. Buttons link to local pages in repo
 2. Scroll down links to other live (global) github pages.
 
+Navbar is made by having a main navbar div and a dropdown function. <br>
+the dropdown function of floated to the left so that on hover the content is shown:<br>
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
+## The sectioning, pro's & cons.
 
+I decided to section my main content in two DIV types and call them sectionA and sectionB. They are almost identical but are reversed so that one will float to the left the other to the right.
 
-1.
+<br>
+
+I decided not to put the images in a div, instead float them. For this I used the command
+
+div.sectionA img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: left;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
