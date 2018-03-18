@@ -12,6 +12,11 @@
 }
 
 /* DEFINING IMAGES AND PLACEMENT */
+div.background{
+  padding: 1%;
+}
+
+
 div.header {
   height: 600px;
   text-align: center;
