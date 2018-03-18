@@ -1,3 +1,13 @@
+
+
+Inline-style:
+![alt text](../images/BgHeader.jpg "Logo Title Text 1")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 # MY WEEK 1 PROJECT
 
 Welcome to my project. In this example we demonstrate our practiced skills learned in __week 1__.
@@ -9,6 +19,13 @@ To run this website simply pull contents of gh-pages or complexStyles.  Alternat
 
  Inside the document you should find:
 ```
+css
+images
+fonts
+README.ms
+README.ms (copy)
+abtme.html
+index.html
 ```
 ### Links to other projects available in the website:
 ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
@@ -24,9 +41,11 @@ I chose this layout due to how simple it is to __change or update the style.__
 <br>
 First is a main class background div that contains the entire page. It serves as a solid backbone in which I build my structure. Styling on this is only padding. In this version there is no flex added. Will try adding this flex wrap in another version.
 
+The rest of the body is composed of two div classes, __elementA & elementB__. More info on this further down.
+
 ## The profile image:
 
-The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the **: : before {} function did not work ..:/.**
+The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the **: : before {} function** did not work ..:/.
 
 <br><br>
 
@@ -51,7 +70,7 @@ I decided to section my main content in two DIV types and call them sectionA and
 
 <br>
 
-I decided not to put the images in a div, instead float them. For this I used the command
+I decided not to put the images in a div, instead float them. For this I used the command:
 
 **div.sectionA img {
   border-radius: 50%;
