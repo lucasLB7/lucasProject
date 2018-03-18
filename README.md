@@ -43,10 +43,10 @@ The rest of the body is composed of two div classes, __elementA & elementB__. Mo
 
 The profile image on the right is styled to grow on hover. I wanted to add a text on hover as done in the TRAVEL AGENCY project but due do the structure the
 ```
-: : before {} function** did not work ..:/.
+: : before {}
 
 ```
-
+function did not work ..:/.
 <br><br>
 
 ## The navbar:
