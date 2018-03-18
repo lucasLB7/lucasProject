@@ -16,13 +16,13 @@ To run this website simply pull contents of gh-pages or complexStyles.  Alternat
 
 |   file name    |   file type   | size  |
 | :------------- |:-------------:|:------|
-| css            | folder        | $1600 |
-| images         | folder        |   $12 |
-| fonts          | folder        |    $1 |
-| README.ms      | README file ms|    $1 |
-| README.ms(copy)| README file ms|    $1 |
-| abtme.html     | html page     |    $1 |
-| index.html     | html page (HP)|    $1 |
+| css            | folder        | 7.7 kb|
+| images         | folder        | 2.1 mb|
+| fonts          | folder        |247.7kb|
+| README.ms      | README file ms|4.6 kb |
+| README.ms(copy)| README file ms|3.3 kb |
+| abtme.html     | html page     |4.3 kb |
+| index.html     | html page (HP)|3.8 kb |
 
 ### Links to other projects available in the website:
 ANIMAL SHELTER: https://lucaslb7.github.io/animal_rescue/
