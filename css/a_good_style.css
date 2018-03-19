@@ -11,9 +11,33 @@
     font-weight: bold;
 }
 
+a:link {
+    color: white;
+    font-family: font_select;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    font-family: font_select;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    font-family: font_select;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    font-family: font_select;
+}
+
 /* DEFINING IMAGES AND PLACEMENT */
 div.background{
-  padding: 1%;
+  padding: 2%;
+  flex-wrap: wrap;
 }
 
 
@@ -215,4 +239,40 @@ div.textBoxLeft p {
 
 }
 
+div.footer {
+  position: absolute;
+  border: 2px white solid;
+  background-image: url(../images/sea.jpg);
+  background-size: contain;
+  width: auto;
+
+}
+
+div.footer h1 {
+font-family: font_select;
+color: black;
+background-color: white;
+font-size: 20px;
+border-radius: 25%, 0%, 25%, 0%;
+}
+div.footer p {
+font-family: font_select;
+color: black;
+background-color: white;
+font-size: 15px;
+width: auto;
+}
+div.footer a {
+font-family: font_select;
+color: black;
+background-color: white;
+font-size: 15px;
+width: auto;
+}
+div.footer a:hover {
+  font-family: font_select;
+  color: black;
+  background-color: white;
+  font-size: 25px;
+}
 /* SET UP TEXT BOXES FOR ANIMAL DESCRIPTION */
